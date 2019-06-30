@@ -14,10 +14,6 @@ body {
     margin-left: -15px;
 }
 
-.img-profile {
-    width: 50%;
-}
-
 .nav-logo {
     background-color: #3B414D;
 }
@@ -65,6 +61,7 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 18px;
     color: #DB9B79;
+    margin-left: 10px;
 }
 
 .title-signup {
@@ -122,6 +119,17 @@ body {
     margin-left: -10px;
 }
 
+.box-body {
+    padding: 2%;
+}
+
+.about {
+    white-space: pre-wrap;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
+}
+
 @media screen and (max-width:700px) {
     #img-timeline, #img-logo {
         width: 100%;
@@ -129,7 +137,13 @@ body {
     .form-group {
         box-shadow: none;
     }
-    .txtarea, .painel-body, .list-group {
+    .img-profile {
+        width: 20%;
+    }
+    #profile-aside {
+        display: none;
+    }
+    .txtarea, .list-group {
         width: 350px;
     }
 }

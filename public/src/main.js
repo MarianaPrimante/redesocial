@@ -65,7 +65,7 @@ function filterTotal(event) {
 
 function posts(post, likes, filterPost, datePost, key) {
     $("#post-total-filter").prepend(`
-    <article>
+    <article class="form-group">
      <div id="post" class="list-group-item well">
       <p class="text-justify text" id="text-post" data-text-id=${key}>${post}</p>
        <div class="row align-items-end">
