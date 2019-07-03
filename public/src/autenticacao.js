@@ -30,7 +30,7 @@ $(document).ready(function () {
                 console.log(userId.uid)
                 database.ref("users/" + userId.uid).push({
                     name: userId.displayName,
-                    photo: "imagem/perfil.png",
+                    photo: "public/imagem/perfil.png",
                     years: "",
                     city: "",
                     state: "",
@@ -58,6 +58,6 @@ $(document).ready(function () {
     //Criar nova conta
     $("#newAccount").click(function (event) {
         event.preventDefault();
-        window.location = "cadastro.html";
+        window.location = "public/cadastro.html";
     });
 })
