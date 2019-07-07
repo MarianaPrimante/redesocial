@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -19,40 +19,35 @@
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-database.js"></script>
     <script src="https://www.gstatic.com/firebasejs/5.8.4/firebase-storage.js"></script>
     <script src="src/config.js"></script>
-    <title>Sign Up</title>
-
+    <title>Login</title>
 </head>
 
 <body>
+    <img id="img-logo" class="img-responsive container" src="image/logotipo.jpeg" alt="logo">
     <section class="container">
         <div class="col-md-5">
-            <h2 class="text-center title-login">Cadastre-se</h2>
-
+            <h2 class="text-center title-login">Faça seu login</h2>
             <form class="form-group">
-                <label for="inputname">Nome:</label>
-                <input type="text" class="form-control input-sm" id="inputnam">
-
-                <label for="inputemail">E-mail:</label>
-                <input type="email" class="form-control input-sm" id="inputemaill">
-
-                <label for="inputpwd">Senha:</label>
-                <input type="password" class="form-control input-sm" id="inputpwd">
-
-                <label for="inputKids">Quantos filhos:</label>
-                <input type="number" class="form-control input-sm" id="inputKids">
-
-                <label for="inputState">Estado:</label>
-                <input type="text" class="form-control input-sm" id="inputState">
+                <input type="email" class="form-control input-sm input-login" id="email" placeholder="Enter email"
+                    name="email">
+                <input type="password" class="form-control input-sm input-login" id="password"
+                    placeholder="Enter password" name="pwd">
                 <br>
-                <button class="btn btn-lg btn-block btn-default " id="createLogin">Cadastrar</button><br>
-                <button id="back" class="btn btn-danger">Voltar</button>
+                <button class="btn btn-lg btn-block btn-default" id="authLogin">Entrar</button>
+                <br>
+                <p class="text-center">
+                    <button class="btn btn-lg btn-primary" id="authGmail"><i
+                            class="fab fa-google-plus-square">Google</i></button>
+                    <br>
+                    <button class="btn btn-warning" id="newAccount">Criar uma conta</button>
+                    </h5>
+                </p>
             </form>
         </div>
     </section>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script src="src/cadastro.js"></script>
+    <script src="src/main.js"></script>
 </body>
 
 </html>

@@ -1,10 +1,10 @@
 body {
-    background: url(fundo.jpg) no-repeat center fixed transparent;
+    background: url(../image/fundo.jpg) no-repeat center fixed transparent;
     width: 100%;
 }
 
 #img-logo {
-    width: 35%;
+    width: 40%;
     margin-top: 10px;
 }
 
@@ -45,6 +45,7 @@ body {
     display: flex;
     justify-content: center;
     margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .input-login {
@@ -130,7 +131,7 @@ body {
     font-size: 14px;
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:990px) {
     #img-timeline, #img-logo {
         width: 100%;
     }
@@ -142,9 +143,6 @@ body {
     }
     #profile-aside {
         display: none;
-    }
-    .txtarea, .list-group {
-        width: 350px;
     }
 }
 
