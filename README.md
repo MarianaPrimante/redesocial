@@ -1,4 +1,4 @@
-# Data Lovers
+# Rede Social
 
 ## Índice
 * [Preâmbulo](#preâmbulo)
@@ -93,7 +93,7 @@ Pesquisa com usuários:
 ## Produto final 
 (Apresentação do projeto final)
 
-# Simulação de login 
+### Simulação de login 
 
 ```
 Usuário Teste1
